@@ -9,7 +9,7 @@ function Cards({ imgPath, title, iscert, link }) {
           <img className='card-img' src={imgPath} alt="Skills_img" />
         </a>
       ) : (
-        <img className='card-img' src={imgPath} alt="Skills_img" />
+        <img className='card-img' src={`/${imgPath}`} alt="Skills_img" />
       )}
       <h3 className='card-title' data-title={title}>{title}</h3>
     </div>
