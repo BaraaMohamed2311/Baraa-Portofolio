@@ -1,13 +1,7 @@
 {
-    "projects": {
-      "client": {
-        "src": "Client",
-        "functions": "Client/api"
-      },
-      "admin": {
-        "src": "Admin",
-        "functions": "Admin/api"
-      }
-    }
+    "rewrites": [
+      { "source": "/api/(.*)", "destination": "/Admin/api/$1" },
+      { "source": "/(.*)", "destination": "/Client/$1" }
+    ]
   }
   
