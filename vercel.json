@@ -1,0 +1,13 @@
+{
+    "projects": {
+      "client": {
+        "src": "Client",
+        "functions": "Client/api"
+      },
+      "admin": {
+        "src": "Admin",
+        "functions": "Admin/api"
+      }
+    }
+  }
+  

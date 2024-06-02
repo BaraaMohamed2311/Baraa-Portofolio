@@ -1,0 +1,27 @@
+
+#loadingscreen{
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+    background-color:var(--sec-dark) ;
+}
+
+
+#loadingscreen svg{
+    width: 20vw;
+    overflow: visible;
+}
+
+
+#loadingscreen  g{
+    overflow: hidden;
+    visibility: visible;
+}
+

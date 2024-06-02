@@ -1,0 +1,131 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6.5rem;
+    width: 100%;
+    background-color:var(--sec-dark);
+    box-shadow: var(--shadow-values);
+    z-index: 1000;
+    letter-spacing: 0.08rem;
+}
+
+.nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav .wrapper .nav-ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    z-index: 30;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+    -webkit-transition: opacity 0.6s ease;
+    -moz-transition: opacity 0.6s ease;
+    -ms-transition: opacity 0.6s ease;
+    -o-transition: opacity 0.6s ease;
+}
+.nav-li{
+    font-weight: 600;
+    font-size: 1.3rem;
+    z-index: 30;
+}
+
+.nav-li a{
+color: var(--white);
+}
+
+
+    .nav .wrapper  svg {
+        width: 8rem;
+        height: 100%;
+        overflow: visible;
+        
+    }
+    
+    .nav .wrapper  g{
+        overflow: hidden;
+        visibility: visible;
+    }
+    
+
+
+.collapse-nav{
+    
+    width: 3rem;
+    height: 3rem;
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.collapse-nav .bars{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+    box-shadow: var(--shadow-values);
+}
+
+.nav-ul #goContact{
+    color:  red;
+    background-color: var(--green);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    box-shadow: var(--shadow-values);
+}
+
+
+
+
+
+
+    @media (max-width:1250px) {
+        
+        
+
+        .nav .wrapper .nav-ul{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        left: 50%;
+        top: 6.5rem;
+        width: 100vw;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        background-color: var(--sec-dark);
+        padding:  1rem 0;
+        opacity: 0;
+        pointer-events: none;
+        
+}
+            .collapse-nav{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+            }
+
+            
+    
+    }
+
+    
