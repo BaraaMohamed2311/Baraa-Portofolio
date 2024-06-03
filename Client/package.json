@@ -4,7 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://BaraaMohamed2311.github.io/Baraa-Portofolio",
+  "homepage": "https://baraamohamed2311.github.io/Baraa-Portofolio",
   "scripts": {
   "dev": "vite",
   "predeploy":"npm run build",
