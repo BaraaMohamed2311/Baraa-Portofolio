@@ -9,7 +9,7 @@ function MySec() {
     <section id="mysec" className="mysec" >
       <MySecSvg  />
       <div className="baraa-info">
-        <img className="baraa-img" src="./assets/BaraaC.webp" alt="Baraa Mohamed Image" />
+        <img width="440" height="440"className="baraa-img" src="./assets/BaraaC.webp" alt="Baraa Mohamed Image" />
         <div className="baraa-text-wrapper">
           <h1 className="main-h1">Baraa Mohamed Fathy</h1>
           <ol className="main-ol">
