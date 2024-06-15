@@ -4,7 +4,10 @@ const PORT = 8080;
 
 app.use(express.json())
 app.get("/api/",(req , res)=>{
-    res("Baraa's Backend")
+    res.json({
+        success:true,
+        message:"Baraa's Backend"
+    })
 })
 app.post("/api/",async (req , res)=>{
     
