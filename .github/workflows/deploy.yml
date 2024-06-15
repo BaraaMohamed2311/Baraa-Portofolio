@@ -28,6 +28,13 @@ jobs:
           cd Client
           npm run build
 
+      # New step to copy images to the build directory
+      - name: Copy images to build directory
+        run: |
+          mkdir -p ./Client/build/assets  # Create the assets directory if it doesn't exist
+          cp -R ./Client/assets/* ./Client/build/assets/
+        
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
