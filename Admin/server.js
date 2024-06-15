@@ -1,9 +1,11 @@
 const express =  require("express");
-const express =  express();
+const app =  express();
 const PORT = 8080;
 
 app.use(express.json())
-
+app.get("/",(req , res)=>{
+    res("Baraa's Backend")
+})
 app.post("/",async (req , res)=>{
     
         const {email , text} =req.body;
