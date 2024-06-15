@@ -3,10 +3,10 @@ const app =  express();
 const PORT = 8080;
 
 app.use(express.json())
-app.get("/",(req , res)=>{
+app.get("/api/",(req , res)=>{
     res("Baraa's Backend")
 })
-app.post("/",async (req , res)=>{
+app.post("/api/",async (req , res)=>{
     
         const {email , text} =req.body;
         try{
