@@ -26,10 +26,6 @@ jobs:
         working-directory: ./Client
         run: npm run build
 
-      # New step to copy images to the build directory
-      - name: Copy images to build directory
-        working-directory: ./Client
-        run: cp -R ./assets/* ./Client/build/assets/
         
 
       - name: Deploy to GitHub Pages
