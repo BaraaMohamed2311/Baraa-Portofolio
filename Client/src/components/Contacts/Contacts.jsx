@@ -69,7 +69,7 @@ function Contact(){
 
             isloading("Loading");
 
-            fetch("http://localhost:3000/",{
+            fetch("https://baraa-portofolio-server.vercel.app/api",{
             method:"POST",
             body:JSON.stringify(form),
             headers: {
