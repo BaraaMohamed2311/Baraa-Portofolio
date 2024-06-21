@@ -80,10 +80,17 @@ function Contact(){
         .then((res)=> {return res.json()}) 
         .then(data => 
             { 
-            isloading("Submitted");
-            isStyleState("submitted");
-            toast.success("Email sent successfully!");
-            return data;
+                if(data.success){
+                    isloading("Submitted");
+                    isStyleState("submitted");
+                    toast.success("Email sent successfully!");
+                    return data;
+                    }
+                else{
+                    isloading("Try Again");
+                    isStyleState("failed");
+                    toast.error("Email wasn't sent");
+                }
         }).catch(e => {
             isloading("Try Again");
             isStyleState("failed");
