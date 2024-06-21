@@ -229,7 +229,7 @@ function Jack(){
                             strokeLinecap: 'round',
                             strokeLinejoin: 'round',
                             strokeDasharray: 'none',
-                            strokeOpacity: 1
+                            strokeOpacity: 1,
                           }}
                    id="leftbrow"
                    cx="279.97195"
@@ -277,7 +277,27 @@ function Jack(){
                    cy="198.35143"
                    rx="17.422764"
                    ry="16.358463"
-                   inkscape:label="rightbrow" /></g>
+                   inkscape:label="rightbrow" >
+                   <animate
+          attributeName="rx"
+          begin="3s;op.end+3s"
+          values="17.422764;0;17.422764"
+          keyTimes="0;0.5;1"
+          dur="3s"
+          
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="ry"
+          begin="3s;op.end+3s"
+          values="16.358463;0;16.358463"
+          keyTimes="0;0.5;1"
+          dur="3s"
+           
+          repeatCount="indefinite"
+        />
+                   </ellipse>
+                   </g>
                    <g
                  id="g13">
                  <path

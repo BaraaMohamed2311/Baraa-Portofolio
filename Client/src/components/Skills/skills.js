@@ -8,9 +8,10 @@ function Magnet(){
 
 //  start magnetic effect 
 let activateMagneto = function(e){
+
+    let rect = magneto_element.getBoundingClientRect();
     magneto_element.classList.remove("leave");
     magneto_text.classList.remove("leave");
-    let rect = magneto_element.getBoundingClientRect();
     // set reference point of calculation at middle of element
     let dx_center = (e.clientX - rect.left)/rect.width - 0.5;
     let dy_center = (e.clientY - rect.top)/rect.height - 0.5;
@@ -150,8 +151,8 @@ let Studying = [
     }
     ,
     {
-        title:'Google Cloud',
-        imgPath:'assets/googlecloud.png',
+        title:'SQL',
+        imgPath:'assets/mysql.png',
     }
     
 ]

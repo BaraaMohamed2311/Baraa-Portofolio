@@ -29,7 +29,7 @@ function Skills() {
         </h2>
 
           <div className="status-wrapper">
-            <div className="status">
+            <div className="status active-status">
               <h5>Focusing on Self Learning</h5>
             </div>
 
@@ -43,7 +43,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="status active-status">
+          <div className="status ">
             <h5>Focusing on college exams</h5>
           </div>
         </div>

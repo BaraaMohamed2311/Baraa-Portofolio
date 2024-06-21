@@ -16,7 +16,7 @@ const mailSupportHelpers =async (email  , text)=>{
             const email_info = await transporter.sendMail({
                 from: "Support Team",
                 to:'baraamohamed2311@gmail.com',
-                replyTo: email, // to send reply to user that sent the ticket instead of 'baraamohamed2311@gmail.com'
+                replyTo: email, 
                 subject:email,
                 text:text
             })
