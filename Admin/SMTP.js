@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 
-const mailSupportHelpers =async (email  , text)=>{
+const mailHelper =async (email  , text)=>{
 
         try {
             const transporter = nodemailer.createTransport({ // details of transporting the email
@@ -28,4 +28,4 @@ const mailSupportHelpers =async (email  , text)=>{
         
  }
 
- module.exports = {mailSupportHelpers}
+ module.exports = mailHelper;

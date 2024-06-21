@@ -1,5 +1,6 @@
 const express =  require("express");
-const cors = require('cors')
+const cors = require('cors');
+const mailHelper = require("./SMTP")
 const app =  express();
 const PORT = 8080;
 
@@ -7,17 +8,17 @@ const PORT = 8080;
 app.use(cors())
 app.use(express.json())
 
-app.get("/api/",(req , res)=>{
+app.get("/api",(req , res)=>{
     res.json({
         success:true,
         message:"Baraa's Backend"
     })
 })
-app.post("/api/",async (req , res)=>{
+app.post("/api",async (req , res)=>{
     
         const {email , text} =req.body;
         try{
-            const isSent =await mailSupportHelpers(email , text);
+            const isSent =await mailHelper(email , text);
             
             if(isSent){
                 res.json({
@@ -37,7 +38,7 @@ app.post("/api/",async (req , res)=>{
             console.log("Error Sending Email Support" , err)
             res.json({
                 success:false,
-                message:"Error Sending Email"
+                message:err
             });
         }
     
