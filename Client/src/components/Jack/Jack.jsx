@@ -236,7 +236,9 @@ function Jack(){
                    cy="198.59526"
                    rx="17.422764"
                    ry="16.358463"
-                   inkscape:label="leftbrow" />
+                   inkscape:label="leftbrow" >
+                   
+                  </ellipse>
                    </g>
                    <g
                  id="rightEye"
@@ -258,7 +260,9 @@ function Jack(){
                    cy="199.38551"
                    rx="22.613924"
                    ry="21.86606"
-                   inkscape:label="rightEyeb" />
+                   inkscape:label="rightEyeb" >
+                      
+                  </ellipse>
                    <ellipse
                    ref={rightEyeBallRef}
                    className="eye righteyeball stretch"
@@ -278,24 +282,9 @@ function Jack(){
                    rx="17.422764"
                    ry="16.358463"
                    inkscape:label="rightbrow" >
-                   <animate
-          attributeName="rx"
-          begin="3s;op.end+3s"
-          values="17.422764;0;17.422764"
-          keyTimes="0;0.5;1"
-          dur="3s"
-          
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="ry"
-          begin="3s;op.end+3s"
-          values="16.358463;0;16.358463"
-          keyTimes="0;0.5;1"
-          dur="3s"
-           
-          repeatCount="indefinite"
-        />
+                   
+        
+        
                    </ellipse>
                    </g>
                    <g
