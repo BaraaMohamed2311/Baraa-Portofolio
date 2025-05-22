@@ -190,6 +190,10 @@ let Certificates = [
     {
         link:'https://drive.google.com/file/d/1QJQhPMtBJc-VFrTXKr33YFTKI8AVonFC/view?usp=sharing',
         imgPath:'assets/jenkins.png',
+    },
+    {
+        link:'https://drive.google.com/file/d/19fUfn7yMpAbPE3E0z-QxdQSM-hySlE-Y/view?usp=sharing',
+        imgPath:'assets/aws.png',
     }
 ]
 
