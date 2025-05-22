@@ -38,7 +38,7 @@ function Skills() {
               <h4>
                 GPA
                 <br />
-                <span>3.4</span>
+                <span>3.14</span>
               </h4>
             </div>
           </div>
