@@ -115,6 +115,11 @@ function ActivateH2(ScrollPos){
         imgPath:'assets/mongo.png',
         
     }
+     ,
+    {
+        title:'SQL',
+        imgPath:'assets/mysql.png',
+    }
     ,{
         title:'Html',
         imgPath:'assets/html.png',
@@ -133,27 +138,33 @@ function ActivateH2(ScrollPos){
         title:"For Api's",
         imgPath:'assets/nodejs.png',
         
+    },{
+        title:"Jenkins",
+        imgPath:'assets/jenkins.png',
+        
+    },{
+        title:'Docker',
+        imgPath:'assets/docker.png',
     }
 ]
 
 let Studying = [
     
     
-    
-    
     {
-        title:'Docker',
-        imgPath:'assets/docker.png',
+        title:'Terraform',
+        imgPath:'assets/terraform.png',
+    },{
+        title:'Kubernetes',
+        imgPath:'assets/kubernetes.png',
     },
+    
+    
     {
         title:'Linux',
         imgPath:'assets/linux.png',
     }
-    ,
-    {
-        title:'SQL',
-        imgPath:'assets/mysql.png',
-    }
+    
     
 ]
 
@@ -169,6 +180,16 @@ let Certificates = [
     {
         link:'https://www.cloudskillsboost.google/public_profiles/6becfaf3-2a99-4fa2-bae5-5c78c01df900',
         imgPath:'assets/googlecloud.png',
+    }
+    ,
+    {
+        link:'https://drive.google.com/drive/u/1/folders/1HCgC_lzKpM1pud47kbUolhjrJpG8fY8W',
+        imgPath:'assets/english.png',
+    }
+    ,
+    {
+        link:'https://drive.google.com/drive/u/1/folders/1HCgC_lzKpM1pud47kbUolhjrJpG8fY8W',
+        imgPath:'assets/jenkins.png',
     }
 ]
 
