@@ -15,7 +15,7 @@ function Skills() {
 
 
   return (
-    <section id="skills" className="skills margin">
+    <section id="skills" className="skills margin wrapper">
       
       <List iscert={false} className={"list0 list"} id={"Practicing-list"} data={Practicing} header={"Practicing"} />
       
