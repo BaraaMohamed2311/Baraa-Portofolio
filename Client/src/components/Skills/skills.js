@@ -183,12 +183,12 @@ let Certificates = [
     }
     ,
     {
-        link:'https://drive.google.com/drive/u/1/folders/1HCgC_lzKpM1pud47kbUolhjrJpG8fY8W',
+        link:'https://drive.google.com/file/d/1dUZ_8CgaIE9zNxiENlvxQ367QDyc_IXd/view?usp=sharing',
         imgPath:'assets/english.png',
     }
     ,
     {
-        link:'https://drive.google.com/drive/u/1/folders/1HCgC_lzKpM1pud47kbUolhjrJpG8fY8W',
+        link:'https://drive.google.com/file/d/1QJQhPMtBJc-VFrTXKr33YFTKI8AVonFC/view?usp=sharing',
         imgPath:'assets/jenkins.png',
     }
 ]
